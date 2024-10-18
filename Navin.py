@@ -12,7 +12,7 @@ ADMIN_IDS = {6764248071}  # Replace with your actual admin user ID(s)
 # MongoDB setup
 mongo_client = pymongo.MongoClient("mongodb+srv://Magic:Spike@cluster0.fa68l.mongodb.net/TEST?retryWrites=true&w=majority&appName=Cluster0")
 db = mongo_client["TEST"]
-users_collection = db["V-5"]
+users_collection = db["V-6"]
 
 # Path to your binary
 BINARY_PATH = "./Navin"
